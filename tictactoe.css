@@ -1,0 +1,67 @@
+  body {
+  margin-top: 200px;
+  text-align: center;
+  background-color: #85D6FF;
+  }
+  h1 {
+  color: #FFCCFF;
+  font-family: arial;
+  font-size: 30px;
+  }
+  button {
+    width: 100px;
+    height: 100px;
+    margin: 4px 2px;
+    font-size: 60px;
+    vertical-align: top;
+    background-color: #85D6FF;
+    border: 5px solid white;
+  }
+  #button1 {
+
+    border-radius: 5px;
+  }
+  #button2 {
+
+    border-radius: 5px;
+  }
+  #button3 {
+
+    border-radius: 5px;
+  }
+  #button4 {
+
+    border-radius: 5px;
+  }
+  #button5 {
+    border-radius: 5px;
+  }
+  #button6 {
+
+    border-radius: 5px;
+  }
+  #button7 {
+
+    border-radius: 5px;
+  }
+  #button8 {
+
+    border-radius: 5px;
+  }
+  #button9 {
+
+    border-radius: 5px;
+  }
+
+  #playButton {
+    font-size: 16px;
+    height: 50px;
+    width: 316px;
+    background-color: #FFCCFF;
+  }
+  .value {
+    text-color: white;
+  }
+  #selectTurn {
+    display: none;
+  }
