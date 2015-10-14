@@ -1,38 +1,80 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>TIC TAC TOE</title>
-  <link href = "tictactoe.css" rel = "stylesheet">
-
-</head>
-
+<!doctype html>
+<title>Tic-Tac-Toe</title>
+<link rel="stylesheet" href="tictactoe.css">
+<h1>Tic-Tac-Toe</h1>
+</style>
 <body>
-    <h1>TIC-TAC-TOE</h1>
-
-
-    <button id="button1"></button>
-    <button id="button2"></button>
-    <button id="button3"></button>
-    <br>
-    <button id="button4"></button>
-    <button id="button5"></button>
-    <button id="button6"></button>
-    <br>
-    <button id="button7"></button>
-    <button id="button8"></button>
-    <button id="button9"></button>
-
-<p>
-<button id="playButton">Play Again</button>
-</p>
-
+  <div id="boardMsg"></div>
+<div id="gameBoard">
+  <div class="row">
+    <div id="button1" class="button col"></div>
+    <div id="button2" class="button col"></div>
+    <div id="button3" class="button col"></div>
+  </div>
+  <div class="row">
+    <div id="button4" class="button col"></div>
+    <div id="button5" class="button col"></div>
+    <div id="button6" class="button col"></div>
+  </div>
+  <div class="row">
+    <div id="button7" class="button col"></div>
+    <div id="button8" class="button col"></div>
+    <div id="button9" class="button col"></div>
+  </div>
+  </div>
+  <div id="playerInfo">
+    <input type="text" id="player1info" placeholder="Enter your name to play">
+    <input type="text" id="player2info" placeholder="Enter your name to play">
+  </div>
+  <div id="playButton">
+    <button id="playButton">Play Again</button>
+  </div>
   <select id="selectTurn">
     <option value="X" class="value">X</option>
     <option value="O">O</option>
   </select>
-<p>
-<audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" autoplay>
-</p>
-<script src="tictactoe.js" type="text/javascript"></script>
+
+  <script src='tictactoe.js' type="text/javascript"></script>
 </body>
 </html>
+
+<!doctype html>
+<title>Tic-Tac-Toe</title>
+<link rel="stylesheet" href="tictactoe.css">
+<h1>Tic-Tac-Toe</h1>
+</style>
+<body>
+  <div id="boardMsg"></div>
+<div id="gameBoard">
+  <div class="row">
+    <div id="button1" class="button col"></div>
+    <div id="button2" class="button col"></div>
+    <div id="button3" class="button col"></div>
+  </div>
+  <div class="row">
+    <div id="button4" class="button col"></div>
+    <div id="button5" class="button col"></div>
+    <div id="button6" class="button col"></div>
+  </div>
+  <div class="row">
+    <div id="button7" class="button col"></div>
+    <div id="button8" class="button col"></div>
+    <div id="button9" class="button col"></div>
+  </div>
+  </div>
+  <div id="playerInfo">
+    <input type="text" id="player1info" placeholder="Enter your name to play">
+    <input type="text" id="player2info" placeholder="Enter your name to play">
+  </div>
+  <div id="playButton">
+    <button id="playButton">Play Again</button>
+  </div>
+  <select id="selectTurn">
+    <option value="X" class="value">X</option>
+    <option value="O">O</option>
+  </select>
+
+  <script src='tictactoe.js' type="text/javascript"></script>
+</body>
+</html>
+
