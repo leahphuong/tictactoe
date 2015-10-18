@@ -34,7 +34,7 @@ function checkCombination(b1,b2,b3){
         displayBoard("Player X won!!!");
         ++xWins;
         $('#playerX').text(xWins);
-      }else if(b1.html() == 'O'){
+      }else{
         displayBoard("Player O won!!!");
           ++oWins;
         $('#playerO').text(oWins);
@@ -158,9 +158,6 @@ function checkCombination(b1,b2,b3){
 
   $('#playButton').on('click', resetGame);
 
-// $('#register').click(function(){
-//     $('#registerGame').slideDown('fast');
-//     });
-// // });
+
 
 
